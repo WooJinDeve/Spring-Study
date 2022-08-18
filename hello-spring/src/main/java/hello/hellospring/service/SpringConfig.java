@@ -26,11 +26,13 @@ public class SpringConfig {
         return new TimeTraceAop();
     }*/
 
-    //@Bean
-    //public MemberRepository memberRepository(){
-        //return new MemoryMemberRepository();
-        //return new JdbcMemberRepository(dataSource);
-        //return new JdbcTemplateMemberRepository(dataSource);
-        //return new JpaMemberRepository(em);
-    //}
+//    @Bean
+//    public MemberRepository memberRepository(){
+//        return new MemoryMemberRepository();
+//        return new JdbcMemberRepository(dataSource);
+//        return new JdbcTemplateMemberRepository(dataSource);
+//        return new JpaMemberRepository(em);
+//    }
 }
+
+
