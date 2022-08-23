@@ -188,4 +188,45 @@
 
 </details>
 
+<details>
+<summary><h2>검증</h2></summary>
 
+- [검증](https://github.com/WooJinDeve/Spring-Study/issues/16#issue-1348155250)
+- 클라이언트 검증, 서버 검증
+- 오류처리
+- 오류 코드와 메시지 처리
+
+
+</details>
+
+
+<details>
+<summary><h2>Bean Validation</h2></summary>
+
+- [Bean Validation](https://github.com/WooJinDeve/Spring-Study/issues/17#issue-1348155915)
+- Bean Validation
+- Bean Calidation - 에러 코드
+- Bean Validation - 오브젝트 오류
+- Bean Validation - groups
+
+</details>
+
+<details>
+<summary><h2>Form 전송 객체</h2></summary>
+
+- [Form 전송 객체](https://github.com/WooJinDeve/Spring-Study/issues/18#issue-1348156492)
+- Form 전송 객체
+- Bean Validation - HTTP 메시지 컨버터
+
+</details>
+
+<details>
+<summary><h2>로그인 처리(1)</h2></summary>
+
+- [로그인 처리(1)](https://github.com/WooJinDeve/Spring-Study/issues/19#issue-1348157256)
+- 로그인 처리 - 쿠키
+- 로그인 처리 - 세션
+- 로그인 처리 - 서블릿 HTTP 세션
+- 세션 정보와 타임아웃 설정
+
+</details>
