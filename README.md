@@ -3,7 +3,7 @@
 - [김영한의 스프링 완전 정복](https://www.inflearn.com/roadmaps/373)를 통해 배운것들을 정리한 Repository입니다.
 
 <details>
-<summary><h2>스프링 핵심 원리</h2></summary>
+<summary><h3>스프링 핵심 원리</h3></summary>
 
 - [스프링 핵심 원리](https://github.com/WooJinDeve/Spring-Study/issues/1#issue-1346668714)
 
@@ -22,7 +22,7 @@
 </details>
 
 <details>
-<summary><h2>스프링 컨테이너와 스프링 빈</h2></summary>
+<summary><h3>스프링 컨테이너와 스프링 빈</h3></summary>
 
 - [스프링 컨테이너와 스프링 빈](https://github.com/WooJinDeve/Spring-Study/issues/2#issue-1346684251)
 
@@ -36,7 +36,7 @@
 </details>
 
 <details>
-<summary><h2>싱글톤 컨테이너</h2></summary>
+<summary><h3>싱글톤 컨테이너</h3></summary>
 
 - [싱글톤 컨테이너](https://github.com/WooJinDeve/Spring-Study/issues/3#issue-1346688236)
 
@@ -49,7 +49,7 @@
 </details>
 
 <details>
-<summary><h2>컴포넌트 스캔</h2></summary>
+<summary><h3>컴포넌트 스캔</h3></summary>
 
 - [컴포넌트 스캔](https://github.com/WooJinDeve/Spring-Study/issues/3#issue-1346688236)
 
@@ -62,7 +62,7 @@
 </details>
 
 <details>
-<summary><h2>의존관계 자동 주입</h2></summary>
+<summary><h3>의존관계 자동 주입</h3></summary>
 
 - [의존관계 자동 주입](https://github.com/WooJinDeve/Spring-Study/issues/5#issue-1346690028)
 
@@ -76,7 +76,7 @@
 </details>
 
 <details>
-<summary><h2>빈 생명주기 콜백</h2></summary>
+<summary><h3>빈 생명주기 콜백</h3></summary>
 
 - [빈 생명주기 콜백](https://github.com/WooJinDeve/Spring-Study/issues/6#issue-1346692365)
 
@@ -86,7 +86,7 @@
 </details>
 
 <details>
-<summary><h2>빈 스코프</h2></summary>
+<summary><h3>빈 스코프</h3></summary>
 
 - [빈 스코프](https://github.com/WooJinDeve/Spring-Study/issues/7#issue-1346692736)
 
@@ -98,7 +98,7 @@
 </details>
 
 <details>
-<summary><h2>스프링 MVC 원리</h2></summary>
+<summary><h3>스프링 MVC 원리</h3></summary>
 
 - [스프링 MVC 원리](https://github.com/WooJinDeve/Spring-Study/issues/8#issue-1346693472)
 
@@ -112,7 +112,7 @@
 </details>
 
 <details>
-<summary><h2>서블릿</h2></summary>
+<summary><h3>서블릿</h3></summary>
 
 - [서블릿](https://github.com/WooJinDeve/Spring-Study/issues/9#issue-1346697497)
 
@@ -123,7 +123,7 @@
 </details>
 
 <details>
-<summary><h2>서블릿 + JSP MVC 패턴</h2></summary>
+<summary><h3>서블릿 + JSP MVC 패턴</h3></summary>
 
 - [서블릿 + JSP MVC 패턴](https://github.com/WooJinDeve/Spring-Study/issues/10#issue-1346699364)
 
@@ -133,7 +133,7 @@
 </details>
 
 <details>
-<summary><h2>스프링 MVC 전체 구조</h2></summary>
+<summary><h3>스프링 MVC 전체 구조</h3></summary>
 
 - [스프링 MVC 전체 구조](https://github.com/WooJinDeve/Spring-Study/issues/11#issue-1346700225)
 
@@ -144,7 +144,7 @@
 </details>
 
 <details>
-<summary><h2>스프링 MVC</h2></summary>
+<summary><h3>스프링 MVC</h3></summary>
 
 - [스프링 MVC](https://github.com/WooJinDeve/Spring-Study/issues/12#issue-1346702690)
 
@@ -157,7 +157,7 @@
 </details>
 
 <details>
-<summary><h2>Thymeleaf</h2></summary>
+<summary><h3>Thymeleaf</h3></summary>
 
 - [Thymeleaf](https://github.com/WooJinDeve/Spring-Study/issues/13#issue-1346703620)
 
@@ -178,7 +178,7 @@
 </details>
 
 <details>
-<summary><h2>메시지 국제화</h2></summary>
+<summary><h3>메시지 국제화</h3></summary>
 
 - [메시지 국제화](https://github.com/WooJinDeve/Spring-Study/issues/14#issue-1346704152)
 
@@ -189,7 +189,7 @@
 </details>
 
 <details>
-<summary><h2>검증</h2></summary>
+<summary><h3>검증</h3></summary>
 
 - [검증](https://github.com/WooJinDeve/Spring-Study/issues/16#issue-1348155250)
 - 클라이언트 검증, 서버 검증
@@ -201,7 +201,7 @@
 
 
 <details>
-<summary><h2>Bean Validation</h2></summary>
+<summary><h3>Bean Validation</h3></summary>
 
 - [Bean Validation](https://github.com/WooJinDeve/Spring-Study/issues/17#issue-1348155915)
 - Bean Validation
@@ -212,7 +212,7 @@
 </details>
 
 <details>
-<summary><h2>Form 전송 객체</h2></summary>
+<summary><h3>Form 전송 객체</h3></summary>
 
 - [Form 전송 객체](https://github.com/WooJinDeve/Spring-Study/issues/18#issue-1348156492)
 - Form 전송 객체
@@ -221,7 +221,7 @@
 </details>
 
 <details>
-<summary><h2>로그인 처리</h2></summary>
+<summary><h3>로그인 처리</h3></summary>
 
 - [로그인 처리](https://github.com/WooJinDeve/Spring-Study/issues/19#issue-1348157256)
 - 로그인 처리 - 쿠키
@@ -233,7 +233,7 @@
 
 
 <details>
-<summary><h2>서블릿 필터</h2></summary>
+<summary><h3>서블릿 필터</h3></summary>
 
 - [서블릿 필터](https://github.com/WooJinDeve/Spring-Study/issues/20#issue-1349605512)
 - 공통 관심사
@@ -245,7 +245,7 @@
 
 
 <details>
-<summary><h2>예외 처리와 오류페이지</h2></summary>
+<summary><h3>예외 처리와 오류페이지</h3></summary>
 
 - [예외 처리와 오류페이지](https://github.com/WooJinDeve/Spring-Study/issues/21#issue-1349607031)
 - 서블릿 예외 처리 - 서블릿
