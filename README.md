@@ -235,7 +235,7 @@
 <details>
 <summary><h2>서블릿 필터</h2></summary>
 
-- [서블릿 필터]()
+- [서블릿 필터](https://github.com/WooJinDeve/Spring-Study/issues/20#issue-1349605512)
 - 공통 관심사
 - 서블릿 필터
 - 서블릿 필터 - 인증체크
@@ -247,7 +247,7 @@
 <details>
 <summary><h2>예외 처리와 오류페이지</h2></summary>
 
-- [예외 처리와 오류페이지]()
+- [예외 처리와 오류페이지](https://github.com/WooJinDeve/Spring-Study/issues/21#issue-1349607031)
 - 서블릿 예외 처리 - 서블릿
 - 서블릿 예외 처리 - 필터
 - 서블릿 예외 처리 - 인터셉터
