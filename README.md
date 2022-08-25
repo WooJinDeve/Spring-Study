@@ -4,14 +4,26 @@
 
 # 스프링 시작
 
-- 스프링 시작 
+- **스프링 시작** 
   - [https://start.spring.io/](https://start.spring.io/)
+  
+
+- **Spring Package Setting**
   - `Java Version` : 11
+  - `Project` : `Gradle Project`
   - `Packaging` 
     - `Servlet` : `War`
     - `Spring Boot` : `Jar`
   - `Dependencies`
     - `Spring Web`, `Thymeleaf`, `Lombok`, `Validation`
+  
+    
+- **IDE Setting**
+  - **Lombok Setting**
+    - `setting` -> `Bulid, Execution, Depolyment` -> `Annotation Processors` -> `Enable annotation processing ✔`
+  - **Encoding Setting**
+    - `setting` -> `File Encodings` -> `Global Encoding` -> `UTF-8`
+    - `setting` -> `File Encodings` -> `Properties Files` -> `Default encoding for properties files` -> `UTF-8`
 
 # 공부
 
@@ -294,5 +306,15 @@
 - 포맷터 - Formatter
 - 포맷터를 지원하는 컨버전 서비스
 - 스프링이 제공하는 기본 포맷터
+
+</details>
+
+<details>
+<summary><h3>파일 업로드</h3></summary>
+
+- [파일 업로드]()
+- 서블릿과 파일업로드 1
+- 서블릿과 파일업로드 2
+- 스프링과 파일 업로드
 
 </details>
