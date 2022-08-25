@@ -2,6 +2,17 @@
 
 - [김영한의 스프링 완전 정복](https://www.inflearn.com/roadmaps/373)를 통해 배운것들을 정리한 Repository입니다.
 
+# 스프링 시작
+
+- 스프링 시작 
+  - [https://start.spring.io/](https://start.spring.io/)
+  - `Java Version` : 11
+  - `Packaging` 
+    - `Servlet` : `War`
+    - `Spring Boot` : `Jar`
+  - `Dependencies`
+    - `Spring Web`, `Thymeleaf`, `Lombok`, `Validation`
+
 # 공부
 
 <details>
@@ -254,5 +265,34 @@
 - 서블릿 예외 처리 - 필터
 - 서블릿 예외 처리 - 인터셉터
 - 스프링 부트 - 오류 페이지
+
+</details>
+
+<details>
+<summary><h3>API 예외 처리</h3></summary>
+
+- [API 예외 처리]()
+- API 예외 처리 - 서블릿
+- API 예외 처리 - 스프링 부트 기본 예외 처리
+- API 예외처리 - HandlerExceptionResolver (1)
+- API 예외처리 - HandlerExceptionResolver (2)
+- API 예외 처리 - 스프링이 제공하는 ExceptionResolver
+- API 예외처리 - @ExceptionHandler
+- API 예외처리 - @ControllerAdvice
+
+</details>
+
+<details>
+<summary><h3>스프링 타입 컨버터</h3></summary>
+
+- [스프링 타입 컨버터]()
+- 스프링 타입 컨버터 소개
+- 타입 컨버터 - Converter
+- 컨버전 서비스 - ConversionService
+- 스프링에 Converter 적용하기
+- 뷰 템플릿에 컨버터 적용하기
+- 포맷터 - Formatter
+- 포맷터를 지원하는 컨버전 서비스
+- 스프링이 제공하는 기본 포맷터
 
 </details>
