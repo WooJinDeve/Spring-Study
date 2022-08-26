@@ -1,0 +1,68 @@
+정적 컨텐츠 
+웹 브라우저 (localhost:8080/hello-static.html) -> 내장 톰캣버서 -> 1. 스프링 컨테이너( hello-static 관련 컨트롤러 X)
+-> resources: static/hello-static.html -> 웹브라우저
+
+
+MVC와 템플릿 엔진
+- MVC : Model. View, Controller
+
+웹 브라우저 (localhost:8080/hello-mvc?name=spring-> 내장 톰캣서버 -> 스프링 컨테이너 (hello-mvc에서 매핑 확인 후)
+(return hello-template, model(name:spring) -> viewResolver (template/hello-template.html) ->HTML 변환후(템플릿엔진에서 변환해준다) -> 웹브라우저
+
+viewResolver : 화면을 찾아주고 템플릿 엔진을 연결해준다.
+
+API 방식
+View <- 가 없이 return 값이 직접 전달됨.. 
+※ @ResponseBody : Responce HTML Body에 return 값을 직접 접근하는 방식
+웹 브라우저 (localhost:8080/hello-api?name=spring-> 내장 톰캣서버 -> 스프링 컨테이너 (@ResponseBody return hello(name:spring)
+->HttpMessageConverter (객체일경우 JsonConverter, 아닐경우 StringConverter) -> {name:spring} -> 웹브라우저
+   
+기본 문자처리 : StringHttpMessageConverter
+기본 객체처리 : MappingJackson2HttpMessageConverter
+byte 처리 등 기타 여러 HttpMessageConverter가 기본으로 등록되어 있음.
+
+보통의 경우에는 Json 방식으로 값을 전달한다. 
+Json : {Key:value} 
+
+
+
+------------
+Controller - 등록시 스프링 컨테이너에 등록된다, Controller를 통해서 외부 요청을 받는다.
+Autowired- 생성자 내 객체와 스프링 빈에 등록되어 있는 객체와 연결해준다. (이를 DI라고 함.)
+Service - @Service 등록시 스프링 컨테이너에 등록된다., Service를 통해서 비즈니스 로직을 만든다.
+Repository - 데이터 저장 , 스프링 컨테이너에서 관리
+
+스프링 빈을 등록하는 2가지 방법
+ - 컴포넌트 스캔과 자동 의존관계 설정
+@Component : 애노테이션이 있으면 스프링 빈으로 자동 등록된다.
+@Controller : 컨트롤러가 스프링 빈으로 자동 등록된 이유도 컨포넌트 스캔 때문이다.
+ - 자바 코드로 직접 스프링빈 등록하기
+
+※ 스프링은 스프링 컨테이너에 스프링 빈을 등록할 때, 기본으로 싱글톤으로 등록한다(유일하게 하나만
+등록해서 공유한다) 따라서 같은 스프링 빈이면 모두 같은 인스턴스다. 설정으로 싱글톤이 아니게 설정할 수
+있지만, 특별한 경우를 제외하면 대부분 싱글톤을 사용한다
+
+-----------------
+DI에는 필드 주입, setter 주입, 생성자 주입 3가지 방법이 있다. 하지만 의존관계가 실행중에 동적으로 변하는 경우는
+없으므로 생성자 주입을 권장한다.
+
+실무에서는 주로 정형화된 컨트롤러, 서비스, 리포지토리 같은 코드는 컴포넌트 스캔을 사용한다. 그리고 정형화
+되지 않거나 상황에 따라 구현 클래스를 변경해야 하면 설정을 통해 스프링 빈으로 등록한다.
+
+
+-----
+스프링 데이터 JPA "SpringDataJpaMemberRepository"를 스프링 빈으로 자동 등록해준다.
+
+--------------
+AOP : Aspect Oriented Programming
+- 공통 관심 사항 vs 핵심 관심 사항 분리
+
+스프링의 AOP 동작 방식 설명
+ AOP 적용 전 의존관계 : helloController -> memberService
+ AOP 적용 후 의존관계 : helloController -> 프록시(memberService) -> 실제(memberService)
+  - 가짜 memberService 를 만든다.
+  - joinPoint.preceed() 로 실제 memberService를 실행
+
+ 
+
+

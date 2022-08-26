@@ -283,7 +283,7 @@
 <details>
 <summary><h3>API 예외 처리</h3></summary>
 
-- [API 예외 처리]()
+- [API 예외 처리](https://github.com/WooJinDeve/Spring-Study/issues/22#issue-1351794341)
 - API 예외 처리 - 서블릿
 - API 예외 처리 - 스프링 부트 기본 예외 처리
 - API 예외처리 - HandlerExceptionResolver (1)
@@ -297,7 +297,7 @@
 <details>
 <summary><h3>스프링 타입 컨버터</h3></summary>
 
-- [스프링 타입 컨버터]()
+- [스프링 타입 컨버터](https://github.com/WooJinDeve/Spring-Study/issues/23#issue-1351794746)
 - 스프링 타입 컨버터 소개
 - 타입 컨버터 - Converter
 - 컨버전 서비스 - ConversionService
@@ -312,7 +312,7 @@
 <details>
 <summary><h3>파일 업로드</h3></summary>
 
-- [파일 업로드]()
+- [파일 업로드](https://github.com/WooJinDeve/Spring-Study/issues/24#issue-1351795152)
 - 서블릿과 파일업로드 1
 - 서블릿과 파일업로드 2
 - 스프링과 파일 업로드
