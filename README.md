@@ -15,7 +15,7 @@
     - `Servlet` : `War`
     - `Spring Boot` : `Jar`
   - `Dependencies`
-    - `Spring Web`, `Thymeleaf`, `Lombok`, `Validation`
+    - `Spring Web`, `Thymeleaf`, `Lombok`, `Validation`, `H2 DATABASE`, `Spring DATA JPA`
   
     
 - **IDE Setting**
@@ -24,6 +24,13 @@
   - **Encoding Setting**
     - `setting` -> `File Encodings` -> `Global Encoding` -> `UTF-8`
     - `setting` -> `File Encodings` -> `Properties Files` -> `Default encoding for properties files` -> `UTF-8`
+    
+- **H2 DataBase**
+  - **Download**
+    - [H2 DataBase Download URL](https://www.h2database.com)
+  - **Setting**
+    - `JDBC URL` : `jdbc:h2:tcp://localhost/~/test`
+    - `User` : `sa`
 
 # 공부
 
