@@ -357,3 +357,32 @@
 - 인터페이스 기반 프록시와 클래스 기반 프록시
 
 </details>
+
+<details>
+<summary><h3>동적 프록시 기술</h3></summary>
+
+- [리플랙션](https://github.com/WooJinDeve/Spring-Study/issues/28#issue-1361128454)
+- JDK 동적 프록시
+- CGLIB
+
+</details>
+
+<details>
+<summary><h3>프록시 팩토리</h3></summary>
+
+- [프록시 팩토리 - 소개](https://github.com/WooJinDeve/Spring-Study/issues/29#issue-1361128848)
+- 포인트컷, 어드바이스, 어드바이저
+- 어드바이저
+- 포인트컷
+- 멀티 어드바이저 적용
+
+</details>
+
+<details>
+<summary><h3>빈 후처리기</h3></summary>
+
+- [빈 후처리기 - BeanPostProcessor](https://github.com/WooJinDeve/Spring-Study/issues/30#issue-1361129081)
+- 빈 후처리기 적용
+- 하나의 프록시, 여러 Advisor
+
+</details>
