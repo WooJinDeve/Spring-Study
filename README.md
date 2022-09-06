@@ -406,3 +406,32 @@
 - 어드바이스 종류
 
 </details>
+
+
+<details>
+<summary><h3>스프링 AOP 포인트컷</h3></summary>
+
+- [포인트컷 지시자](https://github.com/WooJinDeve/Spring-Study/issues/33#issue-1362813998)
+- execution 문법
+- within 문법
+- Args 문법
+- @target, @within 문법
+- @annotation, @args 문법
+- bean 문법
+- 매개변수 전달
+- this, target 문법
+
+</details>
+
+<details>
+<summary><h3>스프링 AOP 주의사항</h3></summary>
+
+- [프록시 내부 호출 문제](https://github.com/WooJinDeve/Spring-Study/issues/34#issue-1362815403)
+- 프록시 내부 호출 - 자기 자신 주입
+- 프록시 내부 호출 - 지연 조회
+- 프록시 내부 호출 - 구조 변경
+- 프록시 한계 - 타입 캐스팅
+- 프록시 한계 - 의존관계 주입
+- 프록시 한계 - CGLIB
+
+</details>
