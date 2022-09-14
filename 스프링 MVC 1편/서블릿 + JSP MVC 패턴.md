@@ -7,7 +7,8 @@
     - **모델** : 뷰에 출력할 데이터를 담아둔다. 뷰가 필요한 데이터를 모두 모델에 담아서 전달해주는 덕분에 뷰는 비즈니스 로직이나 데이터 접근을 몰라도 되고, 화면을 렌더링 하는 일에 집중할 수 있다.
     - **뷰** : 모델에 담겨있는 데이터를 사용해서 화면을 그리는 일에 집중한다. 여기서는 HTML을 생성하는 부분을 말한다
 
-![Untitled](%E1%84%89%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BA%20+%20JSP%20MVC%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%20b6bfe60d6f164279a3c5c836df7cb0ee/Untitled.png)
+
+![Untitled](https://user-images.githubusercontent.com/106054507/190147255-f30a4291-3981-4d91-b96f-c88f3fa9acd7.png)
 
 ## MVC 패턴 한계
 
@@ -28,7 +29,8 @@
 
 ## 프론트 컨트롤러
 
-![Untitled](%E1%84%89%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BA%20+%20JSP%20MVC%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%20b6bfe60d6f164279a3c5c836df7cb0ee/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/106054507/190147265-904732d5-3ee3-4a6e-9ecb-ce6b6d0cc7cf.png)
+
 
 - **FrontController 패턴 특징**
     - 프론토 컨트롤러 서블릿 하나로 클라이언트의 요청을 받음
