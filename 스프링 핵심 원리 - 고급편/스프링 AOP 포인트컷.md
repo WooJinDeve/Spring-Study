@@ -280,7 +280,8 @@ public class ArgsTest {
     - `@target` 은 부모 클래스의 메서드까지 어드바이스를 다 적용하고, `@within` 은 자신의 클래스에 정의된 메서드에만 어드바이스를 적용한다.
 - `args, @args, @target`는 단독으로 사용하면 안된다.
 
-![Untitled](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20AOP%20%E1%84%91%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%B3%E1%84%8F%E1%85%A5%E1%86%BA%20b375e42d95bc4e5287fdc489450d7377/Untitled.png)
+
+![Untitled](https://user-images.githubusercontent.com/106054507/190149352-349a644b-23e4-49ab-a66c-b9ed2b27cd7e.png)
 
 ```java
 @Slf4j
