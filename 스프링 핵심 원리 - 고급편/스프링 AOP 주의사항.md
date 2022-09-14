@@ -35,7 +35,7 @@ public class CallLogAspect {
 }
 ```
 
-![Untitled](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20AOP%20%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%B4%E1%84%89%E1%85%A1%E1%84%92%E1%85%A1%E1%86%BC%20313f83430f11458bab6159a8b5752e62/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/106054507/190149459-f20faefb-a9e5-4545-ab5d-5833ceebceb5.png)
 
 - 자바 언어에서 메서드 앞에 별도의 참조가 없으면 `this` 라는 뜻으로 자기 자신의 인스턴스를 가리킨다.
 - 결과적으로 자기 자신의 내부 메서드를 호출게 되는데, 여기서 `this` 는 실제 대상 객체(target)의 인스턴스를 뜻한다.
@@ -65,7 +65,8 @@ public class CallServiceV1 {
 }
 ```
 
-![Untitled](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20AOP%20%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%B4%E1%84%89%E1%85%A1%E1%84%92%E1%85%A1%E1%86%BC%20313f83430f11458bab6159a8b5752e62/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/106054507/190149448-93aec282-f733-4bc1-a8c0-1404b3bda429.png)
+
 
 ## 프록시 내부 호출 - 지연 조회
 
@@ -128,7 +129,8 @@ public class InternalService {
 }
 ```
 
-![Untitled](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20AOP%20%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%B4%E1%84%89%E1%85%A1%E1%84%92%E1%85%A1%E1%86%BC%20313f83430f11458bab6159a8b5752e62/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/106054507/190149476-792f4e54-cdb6-42f9-b82a-e406bf5ae45a.png)
+
 
 ## 프록시 한계 - 타입 캐스팅
 
