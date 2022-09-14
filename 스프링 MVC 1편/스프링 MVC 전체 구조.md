@@ -2,7 +2,8 @@
 
 ## SpringMVC 구조
 
-![Untitled](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20MVC%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8E%E1%85%A6%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%2017c71090d19e4d5bacea3e90a1d98b7d/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/106054507/190147352-965e5846-e831-41da-b612-fcf23d0952d1.png)
+
 
 - **DispatcheServlet 구조**
     - `org.springframework.web.servlet.DispatcherServlet`
