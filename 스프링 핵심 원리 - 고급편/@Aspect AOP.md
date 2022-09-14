@@ -50,14 +50,16 @@ public class LogTraceAspect {
     1. `@Aspect` 를 보고 어드바이저로 변환해서 저장한다.
     2. 어드바이저를 기반으로 프록시를 생성한다
 
-![Untitled](@Aspect%20AOP%209963627882d148c4b5a7c525e8f6e5dd/Untitled.png)
+
+![Untitled](https://user-images.githubusercontent.com/106054507/190149184-3a7b10c4-118b-46fc-8c4c-25f8cc3e3916.png)
 
 - **실행**: 스프링 애플리케이션 로딩 시점에 자동 프록시 생성기를 호출한다.
 - **모든 @Aspect 빈 조회**: 자동 프록시 생성기는 스프링 컨테이너에서 `@Aspect 애노테이션`이 붙은 스프링 빈을 모두 조회한다.
 - **어드바이저 생성**: `@Aspect` 어드바이저 빌더를 통해 `@Aspect 애노테이션` 정보를 기반으로 어드바이저를 생성한다.
 - **@Aspect 기반 어드바이저 저장**: 생성한 어드바이저를 `@Aspect 어드바이저 빌더` 내부에 저장한다
 
-![Untitled](@Aspect%20AOP%209963627882d148c4b5a7c525e8f6e5dd/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/106054507/190149190-7f899e3a-c23f-436e-8517-dfb9a184b63b.png)
+
 
 - **생성**: 스프링 빈 대상이 되는 객체를 생성한다.
 - **전달**: 생성된 객체를 빈 저장소에 등록하기 직전에 빈 후처리기에 전달한다.
