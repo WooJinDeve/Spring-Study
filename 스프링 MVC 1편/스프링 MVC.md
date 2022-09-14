@@ -439,11 +439,13 @@ public class ReponseBodyController {
 
 - **SpringMVC 구조**
 
-![Untitled](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20MVC%20fc03e30eb28d4b38802278fbf3b387a2/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/106054507/190147469-1383e71e-eb73-455f-b4e1-c2018cbbd432.png)
+
 
 - **RequestMappingHandlerAdapter 동작방식**
 
-![Untitled](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20MVC%20fc03e30eb28d4b38802278fbf3b387a2/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/106054507/190147478-30aa4958-ee86-44b2-b203-849aeb49caa2.png)
+
 
 - **ArgumentResolver**
     - 애노테이션 기반 컨트롤러를 처리하는 `RequestMappingHandlerAdapter` 는 바로 이
@@ -458,5 +460,6 @@ public class ReponseBodyController {
     - 컨트롤러에서 `String`으로 뷰 이름을 반환해도, 동작하는 이유가 바로 `ReturnValueHandler` 덕분이다.
 
 - **HTTP 메시지 컨버터**
+- 
+![Untitled 2](https://user-images.githubusercontent.com/106054507/190147497-afcb02ee-3ec2-4c00-8e74-32716d68c55d.png)
 
-![Untitled](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20MVC%20fc03e30eb28d4b38802278fbf3b387a2/Untitled%202.png)
