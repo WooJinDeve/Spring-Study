@@ -42,7 +42,8 @@
 - HTTP 응답 정보를 편리하게 제공할 수 있는 `HttpServletResponse`
 - 개발자는 HTTP 스펙을 편리하게 사용
 
-![Untitled](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20MVC%209792e242a3b94c95ae4c636d159bae5e/Untitled.png)
+
+![Untitled](https://user-images.githubusercontent.com/106054507/190146897-e6e3136b-4f49-4653-bf08-53ff43f61da8.png)
 
 - **HTTP 요청시**
     - WAS 는 `Request`, `Response` 객체를 새로 만들어서 서블릿 객체 호출
@@ -50,7 +51,8 @@
     - 개발자는 `Response` 객체에 HTTP 응답 정보를 편리하게 입력
     - WAS는 `Response` 객체에 담겨있는 내용으로 HTTP 응답 정보를 생성
     
-    ![Untitled](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20MVC%209792e242a3b94c95ae4c636d159bae5e/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/106054507/190146923-7436183b-afb8-4506-8058-b7c840c66cb1.png)
+
     
 - **서블릿 컨테이너**
     - 톰캣처럼 서블릿을 지웒는 WAS를 서블릿 컨테이너
@@ -67,7 +69,8 @@
     - 쓰레드는 한번에 하나의 코드 라인만 수행
     - 동시 처리가 필요하면 쓰레드를 추가로 생성
     
-    ![Untitled](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20MVC%209792e242a3b94c95ae4c636d159bae5e/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/106054507/190146947-395bf962-9313-4148-9a75-83a6e63f7298.png)
+
     
 - **요청 마다 쓰레드 생성**
     - **장점**
@@ -81,7 +84,8 @@
         - 쓰레드 생성에 제한이 없다.
             - 고객 요청이 너무 많이 오면, CPU, 메모리 임계점을 넘어서 서버가 죽을 수 있다
 
-![Untitled](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20MVC%209792e242a3b94c95ae4c636d159bae5e/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/106054507/190146961-576861fa-4275-42ba-a54b-b6ae2e0cb74c.png)
+
 
 - **쓰레드 풀**
     - 특징
