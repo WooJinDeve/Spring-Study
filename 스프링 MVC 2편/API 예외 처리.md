@@ -87,9 +87,10 @@ server.error.include-stacktrace=always
 
 - **HandlerExceotionResolver**
 
-![Untitled](API%20%E1%84%8B%E1%85%A8%E1%84%8B%E1%85%AC%20%E1%84%8E%E1%85%A5%E1%84%85%E1%85%B5%204b53bb84538c4695b874cffbce44b277/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/106054507/190148116-95860356-7222-40c5-acf5-2b5a01deafa0.png)
 
-![Untitled](API%20%E1%84%8B%E1%85%A8%E1%84%8B%E1%85%AC%20%E1%84%8E%E1%85%A5%E1%84%85%E1%85%B5%204b53bb84538c4695b874cffbce44b277/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/106054507/190148122-af196122-b514-40d9-af78-1da93c1ff73f.png)
+
 
 - **HandlerExceptionResolver 인터페이스**
     - handler : 핸들러(컨트롤러) 정보
